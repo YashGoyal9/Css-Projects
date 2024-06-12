@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.header {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+
+}
+.search{
+    height: 20px;
+    align-self: center;
+}
+.subscribe{
+    color: grey;
+    font-size: small;
+}
+
+.container{
+    height: 800px;
+    width: 100%;
+    margin-top: 10px;
+    font-size:90%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+
+}
+
+.box{
+    padding: 3px;
+}
+
+#main{
+    padding: 20px;
+    padding-top: 5px;
+}
+#side
+{
+    padding: 20px;
+}
+.date{
+    color: gray;
+    padding: 10px;
+    padding-left: 0px;
+}
+.blue{
+    color: blue;
+}
+.overflow{
+    overflow:visible;
+    border: 1px solid black;
+    padding: 5px;
+}
+.container ul,ol{
+    padding-left: 25px;
+}
+.button{
+    height: 40px;
+    width: 18%;
+    border-radius: 25px; 
+    background-color: transparent;
+    margin-bottom: 100px;
+
+}
+#bluebutton{
+    color: blue;
+    border-color: blue;
+}
+#graybutton{
+    color: gray;
+    border-color: gray;
+}
+#backbutton{
+    position: absolute;
+    top: 144%;
+    left: 80%;
+    font-weight: bolder;
+}
