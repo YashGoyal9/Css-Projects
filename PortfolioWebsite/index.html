@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logocontainer">
+                <img src="images/Yash Logo.jpg" class="logo">
+                <div class="logotext">
+                        ash
+                </div>
+                <div class="div" class="logotext" id="text2">
+                    oyal
+                </div>
+            </label>
+            <ul>
+              <li><a href="#projects" onclick="hideNav()">Projects</a></li>
+              <li><a href="#skills" onclick="hideNav()">Skills</a></li>
+              <li><a href="#contactme" onclick="hideNav()">Contact Me</a></li>
+            </ul>
+          </nav>
+
+        <div class="container">
+            <div class="hero-section">
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">
+                        Hi! Yash Goyal
+                    </div>
+                    <div class=" hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+    
+                    <div class="hero-section-description">
+                        I'm a software developer and here is my portfolio website. Here you'll learn about my journey as a software developer.
+                    </div>
+    
+                    <div class="btn-pink" id="btn">Hire me </div>
+                </div>
+    
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="images/dot.png" width="80px" alt="">
+                    </div>
+                    <div class="absolute icons icon-cube">
+                        <img src="images/cube.png" width="21px" alt="">
+                    </div>
+                    <div class="absolute icons icon-circle">
+                        <img src="images/circle.png" width="51px" alt="">
+                    </div>
+                    <div class="absolute icons icon-zigzag">
+                        <img src="images/zig-zag.png" width="51px" alt="">
+                    </div>
+                    <div class="absolute icons icon-plus">
+                        <img src="images/plus.png" width="16px" alt="">
+                    </div>
+                    <div class="user-image">
+                        <img src="images/User.jpg" width="300px" height="300px" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="faded-text ">
+                Yash Goyal
+            </div>
+        </div>
+        <div class="project-section" id="projects">
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left ">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images/html (1).png" alt="">
+                            <img class="project-skill" src="images/css.png" alt="">
+                            <img class="project-skill" src="images/js.png" alt="">
+
+                        </div>
+                        <h2 class="project-heading">Razorpay Clone</h2>
+                        <div class="project-sub-heading">
+                            Welcome to our cutting-edge financial platform, a Razorpay clone that seamlessly integrates secure payment solutions, 
+                            empowering businesses with swift and efficient transaction processing. 
+                            Experience the future of online payments with our innovative and reliable services."
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <i class="fa-brands fa-github icon"></i>
+                            <i class="fa-solid fa-link icon "></i>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-left">02</div>
+                    <div class="project-content project-content-right ">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images/html (1).png" alt="">
+                            <img class="project-skill" src="images/css.png" alt="">
+
+                        </div>
+                        <h2 class="project-heading">The Parallax Website </h2>
+                        <div class="project-sub-heading">
+                            Embark on a captivating journey through our parallax-inspired website,
+                             where immersive scrolling unveils a dynamic blend of design and technology.
+                             Elevate your online experience as we redefine the art of storytelling with depth and creativity.
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <i class="fa-brands fa-github icon"></i>
+                            <i class="fa-solid fa-link icon "></i>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content project-content-left ">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images/html (1).png" alt="">
+                            <img class="project-skill" src="images/css.png" alt="">
+
+                        </div>
+                        <h2 class="project-heading">The Modern chair Project </h2>
+                        <div class="project-sub-heading">
+                            Discover the epitome of modern comfort and style with our visionary chair project.
+                             Immerse yourself in sleek designs, cutting-edge materials, and unparalleled craftsmanship, 
+                             as we redefine the art of seating for the contemporary lifestyle.
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <i class="fa-brands fa-github icon"></i>
+                            <i class="fa-solid fa-link icon "></i>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project4">
+                    <div class="project-number project-number-left">04</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images/html (1).png" alt="">
+                            <img class="project-skill" src="images/css.png" alt="">
+                        </div>
+                        <h2 class="project-heading"> My Image Gallery</h2>
+                        <div class="project-sub-heading">
+                            Embark on a visual journey with our image gallery, where artistry meets technology. 
+                            Experience the next level of aesthetics through advanced CSS techniques, elevating each image to a captivating masterpiece.
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <i class="fa-brands fa-github icon "></i>
+                            <i class="fa-solid fa-link icon "></i>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project5">
+                    <div class="project-number project-number-right">05</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images/html (1).png" alt="">
+                            <img class="project-skill" src="images/css.png" alt="">
+                            <img class="project-skill" src="images/js.png" alt="">    
+                        </div>
+                        <h2 class="project-heading">Reaction time Game </h2>
+                        <div class="project-sub-heading">
+                            Sharpen your reflexes in our thrilling reaction time game. 
+                            Challenge yourself against the clock, test your agility, and emerge as the ultimate champion of split-second decisions!
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <i class="fa-brands fa-github icon "></i>
+                            <i class="fa-solid fa-link icon "></i>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project6">
+                    <div class="project-number project-number-left">06</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images/html (1).png" alt="">
+                            <img class="project-skill" src="images/css.png" alt="">
+                            <img class="project-skill" src="images/js.png" alt="">    
+
+                        </div>
+                        <h2 class="project-heading">Age Calculator </h2>
+                        <div class="project-sub-heading">
+                            Discover your age with precision using our user-friendly Age Calculator.
+                             Just input your birthdate, and let the tool instantly compute your exact age, making it easy to keep track of the passing years!
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <i class="fa-brands fa-github icon "></i>
+                            <i class="fa-solid fa-link icon "></i>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project7">
+                    <div class="project-number project-number-right">07</div>
+                    <div class="project-content project-content-left ">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images/html (1).png" alt="">
+                            <img class="project-skill" src="images/css.png" alt="">
+
+                        </div>
+                        <h2 class="project-heading">Blog Page-1</h2>
+                        <div class="project-sub-heading">
+                            Explore our dynamic blog for  articles, engaging stories, and expert perspectives.
+                            Dive into diverse topics, stay informed, and join the conversation. 
+                       </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <i class="fa-brands fa-github icon"></i>
+                            <i class="fa-solid fa-link icon "></i>
+                            
+                        </div>
+                    </div>
+                </div> 
+                <div class="project-card" id="project8">
+                    <div class="project-number project-number-left">08</div>
+                    <div class="project-content project-content-right ">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images/html (1).png" alt="">
+                            <img class="project-skill" src="images/css.png" alt="">
+
+                        </div>
+                        <h2 class="project-heading">Blog page-2</h2>
+                        <div class="project-sub-heading">
+                            Explore our dynamic blog for sample articles, engaging stories, and expert perspectives.
+                            Dive into diverse topics, stay informed, and join the conversation. 
+                     </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <i class="fa-brands fa-github icon"></i>
+                            <i class="fa-solid fa-link icon "></i>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project9">
+                    <div class="project-number project-number-right">09</div>
+                    <div class="project-content project-content-left ">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images/html (1).png" alt="">
+                            <img class="project-skill" src="images/css.png" alt="">
+
+                        </div>
+                        <h2 class="project-heading">Shopping Page</h2>
+                        <div class="project-sub-heading">
+                            Explore this shopping page of mug !
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <i class="fa-brands fa-github icon"></i>
+                            <i class="fa-solid fa-link icon "></i>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="project-card" id="project10">
+                    <div class="project-number project-number-left">10</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="images/html (1).png" alt="">
+                            <img class="project-skill" src="images/css.png" alt="">
+                        </div>
+                        <h2 class="project-heading">A Parallax Website </h2>
+                        <div class="project-sub-heading">
+                            Explore my parallax Website !
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <i class="fa-brands fa-github icon "></i>
+                            <i class="fa-solid fa-link icon "></i>
+                            
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>    
+
+        </div>
+    
+        <div id="skills" class="skill-container container">
+            <div class="skill-fade-text "> 
+                Skills
+            </div>
+            <div class="skill-container-left">
+                <h2 class="skill-heading">
+                    <span class="caps"> M</span>e and 
+                    <br>
+                    MyTech Stack
+                </h2>
+                
+                <div class="skill-sub-heading">
+                    <p>Embarking on the digital journey with a passion for innovation, 
+                        I leverage a robust tech stack comprising HTML, CSS, JavaScript, and Node.js. 
+                        From crafting seamless user interfaces with HTML and CSS to injecting dynamic functionalities with JavaScript, 
+                        my expertise extends to server-side development, powered by the efficiency and scalability of Node.js.
+                     </p>
+                    <p>Together, these technologies form the backbone of my projects, 
+                        ensuring a cutting-edge and responsive digital experience for users
+                    </p>
+                </div>
+            </div>
+
+            <div class="skill-container-right">
+                <img src="images/blob.png" alt="" class="blob-style">
+                <img src="images/html (1).png"  alt="" class="skills-logo"/>
+                <img src="images/css.png " alt="" class="skills-logo"/>
+                <img src="images/js.png" alt="" class="skills-logo"/>
+                <img src="images/nodejs.png" alt="" class="skills-logo"/>
+                <img src="images/python.png" alt="" class="skills-logo"/>
+            </div>
+        </div>
+          
+        <div class="contactus-form-container" id="contactme" >
+            <div class="container ">
+
+                <h1 class="contactus-heading">Contact me </h1>
+
+                <h3 class="contactus-sub-heading">
+                    Questions,Thoughts or Just Want To Say Hello?
+                </h3>
+
+                <div class="contactus-form-container">
+                    <form class="form" action="">
+                        <div class="formfield-container">
+                            <input class="formfield"
+                             type="text"
+                              name="name"
+                               id="" 
+                               placeholder="Enter your name"/>
+
+                            <input class="formfield"
+                            type="email"
+                            name="email"
+                            id="" 
+                            placeholder="Enter your email address"/>
+
+                            <input class="formfield"
+                            type="text"
+                            name="subject"
+                            id="" 
+                            placeholder="Enter your subject"/>
+
+                            <textarea name="message" 
+                            id="" cols="30" rows="10"
+                            class="formfield formfield-textarea"
+                            placeholder="Enter your message"></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn-pink" id="submit-btn">
+                                Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-faded-text">
+                        Yash Goyal
+                    </div>
+                    <div class="link-wrapper">
+                        <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills </a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <i class="fa-brands fa-linkedin icon "></i>
+                        <i class="fa-brands fa-github icon "></i>
+                        <i class="fa-brands fa-twitter icon "></i>
+                        <i class="fa-brands fa-instagram icon "></i>
+                        <i class="fa-regular fa-envelope icon "></i>
+   
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Full Stack Developer",
+                "Web Developer",
+                "UI-UX Designer",
+                "Backend Developer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,   
+            backSpeed: 80,   
+            backDelay: 1000,  
+        });
+    </script>
+    
+    <script>
+        function hideNav() {
+            document.getElementById("check").checked = false;
+        }
+    </script>
+
+</body>
+</html>
+
+
+
